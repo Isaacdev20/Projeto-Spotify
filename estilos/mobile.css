@@ -3,6 +3,7 @@
         padding: 0px;
         margin: 0px; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        overflow: hidden;
     }
     :root{
         --cor1:#1dd85f;
@@ -101,6 +102,57 @@
     #box > img{
         height: 100px;
         width: 115px;
+        padding: 10px;
     }
 
+    /* footer */
+
+    footer{
+        color: white;
+        background-color: #000000;
+        display: flex;
+        justify-content: space-evenly;
+        height: 100vw;
+    }
+    
+    /* inicio */
+    div#inicio{
+        padding: 10px 0px;
+    }
+    div#inicio > img#casa{
+        height: 20px;
+        padding-left: 10px;
+    }
+    div#inicio >p {
+        text-align: center;
+    }
+    
+    
+    /*pesquisa */
+
+    div#pesquisa{
+        padding: 10px 0px;
+    }
+
+    div#pesquisa > img#lupa2{
+        height: 20px;
+        padding-left: 25px;
+    }
+
+    div#pesquisa > p {
+        text-align: center;
+    }
+
+    /*biblioteca */
+    div#bibli{
+        padding: 10px 0px;
+    }
+
+    div#bibli > img#biblioteca{
+        height: 20px;
+        padding-left: 38px;
+    }
+    div#bibli > p {
+        text-align: center;
+    }
 }
